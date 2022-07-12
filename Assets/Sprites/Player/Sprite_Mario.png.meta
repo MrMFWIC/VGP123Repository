@@ -1,0 +1,1035 @@
+fileFormatVersion: 2
+guid: 96c2cfcfe608e1b4183c3a570043e04f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mario Idle
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 78
+        width: 15
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae184b52783db814ba4ec7068d9e5796
+      internalID: -111478182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 78
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb860cd5cf573745ae8071714a6ad4d
+      internalID: 1328705334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 78
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecbf6ac4f287a94baf217f27156a2b4
+      internalID: -1740413074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 76
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ed07e0841120444914f25131c6adba
+      internalID: 651093438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 77
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b678a6bc20f04f41a9fa2ee384f64b5
+      internalID: -1991626117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 75
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8c8585e4c265a43a009b785f5e1386
+      internalID: -1980960840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fat
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 75
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb1ce5fd85acdc4eaefc9cd9617a205
+      internalID: -896671518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face Towards
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 75
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeab747e4e2a89b4aafb30f0196155f5
+      internalID: -348222223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Face Away
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 75
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4e39af17176704f8a9e69353156343
+      internalID: 932767715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 75
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36026fd9b59ede14eb80b93841eec07a
+      internalID: -1649965698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 75
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fd89b41e32a63468fd26006467520f
+      internalID: 562319281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run2
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 75
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cba4670ae08d5b4e833f478396e78c7
+      internalID: 870237738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 76
+        width: 18
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d158e18b03c274691209bb50c24f6a
+      internalID: -90646717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Jump
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 75
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7de8c15b631b8847ad46b821c032b3c
+      internalID: 1732127227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 45 angle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 23
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae682dd3e01ec74bab24932476cc22b
+      internalID: -662927064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Up Wall 1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 54
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4daa028914b6c740a5612aa7a974d8e
+      internalID: -1810453760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Up Wall 2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 53
+        width: 26
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d61937565cfeb4ab3724c7b2f2f572
+      internalID: 880099469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run Up Wall 3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 52
+        width: 25
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d30db15928cc524795dee98b1cd847a
+      internalID: 322683864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim Idle
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 45
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e1bbd5c4582b944a208d30d3f65f04
+      internalID: 1768344994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 45
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f619437a25093144868c0d513782ea8
+      internalID: -1794340828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swim2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 45
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e242a2a4d9c5914795c07a8b1f85080
+      internalID: 2014091323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb Idle Away
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 43
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bda603fd6e2484cb739e65d6005771
+      internalID: -1682507031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb1 Away
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 43
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205ab8c5186a51847b472ef4fa258641
+      internalID: -883040409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb Idle Towards
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 42
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2dd23d3ff2d594288710ce7f9df745
+      internalID: 1294889092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climb 1 Towards
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 42
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754090013eab98845ad858287b0147e2
+      internalID: 1278761566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: On Yoshi Idle
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 42
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbb28284445d58409556612c4c66100
+      internalID: -1526533624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: On Yoshi Attack1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 42
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc193e9bd1c1b32468fad2711d9dc167
+      internalID: 880127902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: On Yoshi Attack2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 43
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c007a7a9117b34478a5f639f951285a
+      internalID: -1240867667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: On Yoshi Win
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 43
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6180fb1d95b0e428f51873858543e4
+      internalID: 1684095325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 15
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3191004010433b42a4a7e5a67998d4b
+      internalID: 188821883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 15
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993bd4dd6aa70774090703846b08760e
+      internalID: -1336072035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Jump
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 17
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2391ac7fc15d47a41a3e2b3839eae5da
+      internalID: 14675744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 12
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9385ef2d911fc4a9013301a4ec997d
+      internalID: -441858816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 12
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bacff726d12ccb49a2b05e0b8621361
+      internalID: 10082861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cape Up
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 10
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c319c256509394b8fc1f67c2def507
+      internalID: -2135009530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cape Flat
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 9
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924abdf6f4d4db1408c49047831829c7
+      internalID: 1441474386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cape Tilt Down
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 9
+        width: 27
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08df59851615408429f369d02eb2f47b
+      internalID: -444013039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cape Down
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 7
+        width: 24
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f636d1388adeb248bf60c0406c45af0
+      internalID: 2107017203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cape Very Down
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 6
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785f06c994ff17b42892e1a05ff91d98
+      internalID: -1618442819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cape Straight Down
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1
+        width: 16
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e7227d6e39cee49b9a0fb6c49049cf
+      internalID: 1041715758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      On Yoshi Win: 1684095325
+      Climb Idle Towards: 1294889092
+      Attack2: -1336072035
+      Face Away: 932767715
+      Climb 1 Towards: 1278761566
+      Crouch: -1980960840
+      Sprite_Mario_23: -306210105
+      Swim1: -1794340828
+      Sprite_Mario_6: 1231428374
+      Sprite_Mario_12: 1173207907
+      Sprite_Mario_21: 2070536723
+      Run1: 562319281
+      Run2: 870237738
+      Run Jump: 1732127227
+      Sprite_Mario_33: -491958588
+      Sprite_Mario_50: -414352662
+      Cape Flat: 1441474386
+      Sprite_Mario_31: -1128891451
+      Sprite_Mario_3: 1655729177
+      Sprite_Mario_44: 1465045862
+      Walk2: -1740413074
+      Attack1: 188821883
+      Cape Straight Down: 1041715758
+      Run Up Wall 3: 322683864
+      Jump: 651093438
+      On Yoshi Attack2: -1240867667
+      Sprite_Mario_32: 595628207
+      Sprite_Mario_10: 1066330891
+      Sprite_Mario_45: -1087977188
+      Sprite_Mario_46: 1980651038
+      Swim Idle: 1768344994
+      Cape Down: 2107017203
+      Sprite_Mario_38: 35460086
+      On Yoshi Attack1: 880127902
+      Face Towards: -348222223
+      Climb1 Away: -883040409
+      Fall: -1991626117
+      Death1: -441858816
+      Cape Up: -2135009530
+      Sprite_Mario_5: -38401747
+      Sprite_Mario_39: -2140473373
+      Death2: 10082861
+      Attack Jump: 14675744
+      Run Up Wall 1: -1810453760
+      Sprite_Mario_4: 1441078422
+      Sprite_Mario_60: -1536594261
+      Win: -1649965698
+      Sprite_Mario_59: 1753952499
+      Run3: -90646717
+      Mario Idle: -111478182
+      Climb Idle Away: -1682507031
+      On Yoshi Idle: -1526533624
+      Run Up Wall 2: 880099469
+      Cape Tilt Down: -444013039
+      Sprite_Mario_22: -1914616246
+      Swim2: 2014091323
+      Sprite_Mario_7: 1120577023
+      Fat: -896671518
+      Walk1: 1328705334
+      Cape Very Down: -1618442819
+      45 angle: -662927064
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

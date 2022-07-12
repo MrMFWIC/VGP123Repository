@@ -1,0 +1,1094 @@
+fileFormatVersion: 2
+guid: 41641edefbf586b43b2957e39abde5a6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Turret Idle
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 572
+        width: 32
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90537e1e2c1ca4243a1cdb38485f8e12
+      internalID: -511268532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret Fire 1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 572
+        width: 32
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ea357aee22cbe48aafe0f99624482b
+      internalID: 974540103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret Fire 2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 572
+        width: 32
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31689b7bc7e010448736ae8c4e74fdd
+      internalID: 396105889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret Fire 3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 552
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625376900d0710847ac0a447ded85277
+      internalID: 2068730592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret Projectile 1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 557
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2644441c76c574643aaca641bf783c0c
+      internalID: 911069673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mario Projectile
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 557
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9164846151310a845b428275fa8839dd
+      internalID: -524978482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Enemy Idle
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 138
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215b0427d1d420c4981fab5b27b10dd0
+      internalID: 2038413800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Enemy Death 2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 137
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba00151a4e15db4409edd4c3e8bdcc3f
+      internalID: -672279331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Enemy Death 3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 137
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1286df20cce289e42bf8f9f9d9f4bce9
+      internalID: -175078706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Enemy Walk 2
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 137
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c49617fef318fc4ea349dd4c5a9cd75
+      internalID: -562275744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Enemy Walk 3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 120
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c8fc1fecdb40b4a88b33ce0bcc1338
+      internalID: 497692738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Enemy Death 1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 120
+        width: 16
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149ec8b2a7763db4383fa5e371a651c1
+      internalID: 712946623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Enemy Walk 1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 120
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e429bd062db67544b91a691ba9801bf7
+      internalID: -547771623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sprite_Enemies_673: -22225271
+      Sprite_Enemies_96: 261257025
+      Sprite_Enemies_255: -1771647423
+      Sprite_Enemies_319: -703527997
+      Sprite_Enemies_39: 2009118562
+      Sprite_Enemies_587: -1028362198
+      Sprite_Enemies_389: 291850493
+      Sprite_Enemies_226: -2108417331
+      Sprite_Enemies_625: 1667411498
+      Sprite_Enemies_73: -861901412
+      Sprite_Enemies_4: -190769883
+      Sprite_Enemies_55: 492064182
+      Sprite_Enemies_480: 658586999
+      Sprite_Enemies_117: 1113842725
+      Sprite_Enemies_458: 644502489
+      Sprite_Enemies_329: -1560658953
+      Sprite_Enemies_437: 540818070
+      Sprite_Enemies_648: -1831340217
+      Sprite_Enemies_192: 1362550953
+      Sprite_Enemies_644: -1765800375
+      Sprite_Enemies_551: -2095117109
+      Sprite_Enemies_684: -1540778664
+      Sprite_Enemies_252: 2035590696
+      Sprite_Enemies_621: 1035269161
+      Sprite_Enemies_91: 353329167
+      Sprite_Enemies_588: -531832054
+      Sprite_Enemies_378: 1166754599
+      Sprite_Enemies_483: 1152050667
+      Sprite_Enemies_134: -1314260985
+      Sprite_Enemies_275: -1471819599
+      Sprite_Enemies_369: 995902431
+      Turret Fire 1: 974540103
+      Sprite_Enemies_227: 337415241
+      Sprite_Enemies_606: -1374292948
+      Sprite_Enemies_49: -1269999239
+      Sprite_Enemies_527: -1208341151
+      Sprite_Enemies_582: 258139574
+      Sprite_Enemies_135: 877953499
+      Sprite_Enemies_670: 1446257654
+      Sprite_Enemies_195: -96205764
+      Sprite_Enemies_310: 545199756
+      Sprite_Enemies_239: -411837133
+      Sprite_Enemies_482: 602278234
+      Sprite_Enemies_602: -1649305526
+      Sprite_Enemies_654: -1370033626
+      Sprite_Enemies_591: 1909764439
+      Sprite_Enemies_653: 642971712
+      Sprite_Enemies_193: 486652233
+      Sprite_Enemies_544: 1913016981
+      Sprite_Enemies_669: 1374436085
+      Sprite_Enemies_439: 1061430519
+      Sprite_Enemies_615: -987447979
+      Sprite_Enemies_652: 1545336666
+      Sprite_Enemies_244: 1919163379
+      Sprite_Enemies_677: 541822031
+      Sprite_Enemies_445: 422725346
+      Sprite_Enemies_307: -1361596092
+      Sprite_Enemies_426: 1509412771
+      Sprite_Enemies_623: -1506075929
+      Sprite_Enemies_13: -1803734420
+      Sprite_Enemies_175: -865258085
+      Sprite_Enemies_324: -345132250
+      Sprite_Enemies_16: -652447994
+      Sprite_Enemies_512: -2118232781
+      Sprite_Enemies_572: 1255798032
+      Sprite_Enemies_667: -2121904
+      Sprite_Enemies_349: 602572237
+      Sprite_Enemies_413: -502360991
+      Sprite_Enemies_50: 1984245329
+      Sprite_Enemies_597: 1473048148
+      Sprite_Enemies_460: 1517262879
+      Sprite_Enemies_279: 978204147
+      Sprite_Enemies_459: 187444338
+      Sprite_Enemies_280: 10182722
+      Sprite_Enemies_48: -751964994
+      Sprite_Enemies_6: -834367211
+      Sprite_Enemies_531: 987303188
+      Sprite_Enemies_504: -1666307409
+      Sprite_Enemies_358: 348700858
+      Sprite_Enemies_161: 1687011255
+      Sprite_Enemies_211: -1182842442
+      Sprite_Enemies_176: -1459569635
+      Sprite_Enemies_543: 1002583056
+      Sprite_Enemies_222: -673566722
+      Sprite_Enemies_289: 968085735
+      Sprite_Enemies_281: 1484371520
+      Sprite_Enemies_569: 1955850960
+      Sprite_Enemies_536: -1471655732
+      Sprite_Enemies_116: 971188093
+      Sprite_Enemies_140: -2096712717
+      Sprite_Enemies_102: -583888975
+      Sprite_Enemies_656: 374628639
+      Sprite_Enemies_322: -656373273
+      Sprite_Enemies_641: -339615716
+      Sprite_Enemies_114: -775910057
+      Sprite_Enemies_672: -1402770822
+      Sprite_Enemies_122: 1441765660
+      Sprite_Enemies_28: -1674437111
+      Sprite_Enemies_554: 1401514149
+      Sprite_Enemies_528: -372469612
+      Sprite_Enemies_112: 513593165
+      Sprite_Enemies_442: -1232201423
+      Sprite_Enemies_3: 748633928
+      Sprite_Enemies_165: 16468637
+      Sprite_Enemies_525: 1458854784
+      Sprite_Enemies_486: -1572713247
+      Sprite_Enemies_316: 1064167970
+      Sprite_Enemies_428: 493725775
+      Sprite_Enemies_225: -1461870468
+      Sprite_Enemies_686: -199160189
+      Sprite_Enemies_484: -1134688458
+      Sprite_Enemies_462: 564760755
+      Sprite_Enemies_675: 1935909394
+      Sprite_Enemies_18: -2047449797
+      Sprite_Enemies_230: -1499037950
+      Sprite_Enemies_593: -1609979784
+      Sprite_Enemies_380: 1045334055
+      Sprite_Enemies_318: 312280680
+      Sprite_Enemies_366: -1586223209
+      Sprite_Enemies_645: -721312428
+      Sprite_Enemies_351: 1718651748
+      Sprite_Enemies_417: 1276940431
+      Sprite_Enemies_257: -1542697647
+      Sprite_Enemies_632: 1205425971
+      Sprite_Enemies_546: -1539964483
+      Sprite_Enemies_402: -615163813
+      Sprite_Enemies_405: -1610340632
+      Sprite_Enemies_66: 452185266
+      Sprite_Enemies_518: -443187752
+      Sprite_Enemies_110: 637470486
+      Sprite_Enemies_271: 1039212782
+      Sprite_Enemies_553: -160585245
+      Sprite_Enemies_374: 1334015955
+      Sprite_Enemies_627: 1399016620
+      Sprite_Enemies_156: -2105734983
+      Sprite_Enemies_19: -1180445370
+      Sprite_Enemies_573: -1962268496
+      Sprite_Enemies_184: 1446424232
+      Sprite_Enemies_321: -896385752
+      Sprite_Enemies_109: -1794263531
+      Sprite_Enemies_360: -1394474453
+      Sprite_Enemies_450: -1833828560
+      Sprite_Enemies_657: -768709292
+      Sprite_Enemies_223: 805820735
+      Sprite_Enemies_76: -1665847229
+      Sprite_Enemies_94: -1061251659
+      Sprite_Enemies_32: -1315499749
+      Sprite_Enemies_577: -820189852
+      Sprite_Enemies_355: -1364312774
+      Sprite_Enemies_640: 190460072
+      Sprite_Enemies_576: -316207885
+      Sprite_Enemies_410: 878120463
+      Sprite_Enemies_435: -892752195
+      Sprite_Enemies_496: -2132981642
+      Sprite_Enemies_11: 1719129660
+      Sprite_Enemies_574: 1367550666
+      Sprite_Enemies_53: -1050866254
+      Sprite_Enemies_592: -485631012
+      Sprite_Enemies_312: -452844459
+      Sprite_Enemies_534: -306256369
+      Sprite_Enemies_216: -932122785
+      Sprite_Enemies_399: 550626522
+      Sprite_Enemies_681: 657691747
+      Sprite_Enemies_524: -1779135862
+      Sprite_Enemies_463: -945524729
+      Sprite_Enemies_149: 1186425132
+      Sprite_Enemies_221: 290265601
+      Sprite_Enemies_200: 713689903
+      Sprite_Enemies_581: 2034847568
+      Sprite_Enemies_396: -1306096037
+      Sprite_Enemies_568: -1298153876
+      Sprite_Enemies_233: 1537200159
+      Sprite_Enemies_478: -1220201968
+      Sprite_Enemies_294: 759705539
+      Sprite_Enemies_661: 1078352268
+      Sprite_Enemies_136: -1289451956
+      Sprite_Enemies_145: -375801433
+      Sprite_Enemies_253: -1964961489
+      Sprite_Enemies_532: 1456735282
+      Sprite_Enemies_301: 1844227119
+      Sprite_Enemies_303: -477002132
+      Sprite_Enemies_394: 2010582103
+      Sprite_Enemies_229: 2106871388
+      Sprite_Enemies_264: -1096860901
+      Sprite_Enemies_288: -1918451893
+      Sprite_Enemies_328: 1432660034
+      Sprite_Enemies_69: 908555426
+      Sprite_Enemies_668: 317134308
+      Sprite_Enemies_296: -1386146887
+      Sprite_Enemies_326: -1375166575
+      Sprite_Enemies_98: -1159152654
+      Sprite_Enemies_155: -456526167
+      Sprite_Enemies_89: -574401938
+      Sprite_Enemies_446: 1357919929
+      Sprite_Enemies_38: -1200978654
+      Sprite_Enemies_26: 854366238
+      Sprite_Enemies_291: 1195417292
+      Sprite_Enemies_375: 1855146159
+      Sprite_Enemies_78: -1822923909
+      Sprite_Enemies_617: -1843739923
+      Sprite_Enemies_514: 1326850472
+      Sprite_Enemies_164: 1439900258
+      Sprite_Enemies_45: 1988226064
+      Sprite_Enemies_404: -2109233449
+      Sprite_Enemies_373: 695585398
+      Sprite_Enemies_610: -1394970263
+      Sprite_Enemies_519: -1217242526
+      Sprite_Enemies_535: 147543671
+      Sprite_Enemies_539: -294259698
+      Sprite_Enemies_547: 1327627223
+      Sprite_Enemies_170: 525111284
+      Sprite_Enemies_261: 1133960621
+      Sprite_Enemies_30: -196570290
+      Sprite_Enemies_148: 866110537
+      Sprite_Enemies_503: 795088804
+      Sprite_Enemies_168: 1870323767
+      Sprite_Enemies_190: 1644481751
+      Sprite_Enemies_160: -1071833123
+      Sprite_Enemies_282: 1447324302
+      Sprite_Enemies_23: 843871178
+      Sprite_Enemies_636: 467187319
+      Sprite_Enemies_60: 928281978
+      Sprite_Enemies_325: -134299001
+      Sprite_Enemies_70: -1034593842
+      Sprite_Enemies_92: -754907686
+      Sprite_Enemies_526: -1013304231
+      Sprite_Enemies_251: -1979499585
+      Turret Idle: -511268532
+      Sprite_Enemies_537: 1508938078
+      Sprite_Enemies_423: 352788294
+      Sprite_Enemies_633: 1727790115
+      Sprite_Enemies_533: 1902111083
+      Sprite_Enemies_488: 964661199
+      Sprite_Enemies_555: -1674557405
+      Sprite_Enemies_637: -566076083
+      Sprite_Enemies_62: 1314107560
+      Sprite_Enemies_509: -489822818
+      Sprite_Enemies_477: -1445574448
+      Sprite_Enemies_388: 890920749
+      Sprite_Enemies_619: 882020322
+      Sprite_Enemies_277: -758143124
+      Sprite_Enemies_377: -1130782299
+      Mario Projectile: -524978482
+      W: -759278451
+      Sprite_Enemies_682: -2004511073
+      Sprite_Enemies_186: 299052303
+      Sprite_Enemies_596: 1919125616
+      Sprite_Enemies_635: -529752113
+      Sprite_Enemies_75: -1547153485
+      Sprite_Enemies_487: 814260588
+      Sprite_Enemies_332: 1126199931
+      Sprite_Enemies_571: 1494093775
+      Sprite_Enemies_643: 1682098332
+      Sprite_Enemies_124: -372777475
+      Sprite_Enemies_71: -1221521084
+      Sprite_Enemies_345: 167115961
+      Sprite_Enemies_356: -924798448
+      Sprite_Enemies_425: -729622104
+      Sprite_Enemies_598: 1467800049
+      Sprite_Enemies_27: -805824292
+      Sprite_Enemies_181: 1728908083
+      Sprite_Enemies_46: -1615516555
+      Sprite_Enemies_147: 1930015373
+      Sprite_Enemies_679: -1872328851
+      Sprite_Enemies_72: -949956538
+      Sprite_Enemies_63: 1969875219
+      Sprite_Enemies_197: -455121718
+      Sprite_Enemies_335: -137463961
+      Sprite_Enemies_206: 1211405473
+      Sprite_Enemies_121: 1095255830
+      Sprite_Enemies_416: 643556568
+      Sprite_Enemies_570: 1949798441
+      Sprite_Enemies_151: -332160151
+      Sprite_Enemies_283: 282335719
+      Sprite_Enemies_217: 2010525737
+      Sprite_Enemies_671: -1151733315
+      Sprite_Enemies_185: -1550138687
+      Sprite_Enemies_207: -206823483
+      Sprite_Enemies_237: 1102590118
+      Sprite_Enemies_260: 532266506
+      Sprite_Enemies_498: 1363909293
+      Sprite_Enemies_620: 1699502938
+      Sprite_Enemies_338: -750205953
+      Sprite_Enemies_367: -1516429851
+      Sprite_Enemies_638: -973642987
+      Sprite_Enemies_362: 1800474621
+      Sprite_Enemies_83: -711713955
+      Sprite_Enemies_386: 2138219185
+      Sprite_Enemies_647: 294805546
+      Sprite_Enemies_630: 1149480724
+      Sprite_Enemies_246: 1658630881
+      Sprite_Enemies_111: 61927339
+      Sprite_Enemies_455: -865016094
+      Sprite_Enemies_34: 923137184
+      Sprite_Enemies_406: 646486755
+      Sprite_Enemies_506: 1792846008
+      Sprite_Enemies_231: -1579923977
+      Sprite_Enemies_308: 1770901278
+      Sprite_Enemies_245: 1363818410
+      Sprite_Enemies_74: 880753826
+      Sprite_Enemies_398: -251899371
+      Sprite_Enemies_465: 136812910
+      Sprite_Enemies_65: 1377528185
+      Sprite_Enemies_646: 90405970
+      Sprite_Enemies_485: -756460729
+      Sprite_Enemies_666: -1555901119
+      Sprite_Enemies_249: -1701993805
+      Sprite_Enemies_562: 1023222658
+      Sprite_Enemies_125: 1560694657
+      Sprite_Enemies_214: 210924400
+      Sprite_Enemies_276: -2007806087
+      Sprite_Enemies_198: 99754743
+      Sprite_Enemies_494: 1493077728
+      Sprite_Enemies_97: 613442751
+      Sprite_Enemies_250: 1568480833
+      Sprite_Enemies_126: 643569814
+      Sprite_Enemies_344: -661230789
+      Sprite_Enemies_502: -507731282
+      Sprite_Enemies_304: -1838377268
+      Sprite_Enemies_154: -6897131
+      Sprite_Enemies_105: 1813583042
+      Sprite_Enemies_412: -1790884002
+      Sprite_Enemies_152: 827675982
+      Sprite_Enemies_268: 868865330
+      Sprite_Enemies_265: 1411719150
+      Sprite_Enemies_218: 1667365817
+      Sprite_Enemies_208: -1972718162
+      Walking Enemy Walk 2: -562275744
+      Sprite_Enemies_54: -93942635
+      Sprite_Enemies_166: -1278666543
+      Sprite_Enemies_270: -869117141
+      Sprite_Enemies_353: -1988798733
+      Sprite_Enemies_523: -42553891
+      Sprite_Enemies_564: 1520953852
+      Sprite_Enemies_678: -1760552812
+      Sprite_Enemies_403: 1233933517
+      Sprite_Enemies_171: 1833198691
+      Sprite_Enemies_236: 443872207
+      Sprite_Enemies_376: -1729418398
+      Sprite_Enemies_594: -1566000680
+      Sprite_Enemies_286: 741938873
+      Sprite_Enemies_290: 1929550036
+      Sprite_Enemies_411: 1283143558
+      Sprite_Enemies_420: -1101882573
+      Sprite_Enemies_552: 279854669
+      Sprite_Enemies_248: 106175186
+      Sprite_Enemies_346: -827877830
+      Sprite_Enemies_471: 1363076120
+      Sprite_Enemies_331: -362146226
+      Walking Enemy Walk 3: 497692738
+      Sprite_Enemies_357: 899282622
+      Sprite_Enemies_17: 830028866
+      Sprite_Enemies_347: 1040192975
+      Sprite_Enemies_90: 1776318957
+      Sprite_Enemies_210: 1408124675
+      Sprite_Enemies_655: -953307028
+      Sprite_Enemies_336: -162390544
+      Sprite_Enemies_33: 381035126
+      Sprite_Enemies_379: -464827169
+      Sprite_Enemies_444: -1928199784
+      Sprite_Enemies_341: -686022095
+      Sprite_Enemies_177: -293016114
+      Sprite_Enemies_1: 1894399348
+      Sprite_Enemies_146: -1612431389
+      Sprite_Enemies_58: 601672520
+      Sprite_Enemies_337: -1733502447
+      Sprite_Enemies_56: 1152218415
+      Sprite_Enemies_267: 595008914
+      Sprite_Enemies_548: -316812680
+      Sprite_Enemies_493: -170983727
+      Sprite_Enemies_21: -1347259190
+      Sprite_Enemies_47: -1556605351
+      Sprite_Enemies_492: 273697512
+      Turret Fire 3: 2068730592
+      Sprite_Enemies_191: 887535005
+      Sprite_Enemies_297: 2094085926
+      Sprite_Enemies_103: -1047214440
+      Sprite_Enemies_567: 62780887
+      Sprite_Enemies_575: -510222939
+      Sprite_Enemies_542: -1307281793
+      Sprite_Enemies_393: -625563184
+      Sprite_Enemies_391: -506177510
+      Sprite_Enemies_658: -1124440343
+      Sprite_Enemies_224: -916473075
+      Sprite_Enemies_35: -510340133
+      Sprite_Enemies_220: -1010852403
+      Sprite_Enemies_287: 1344860253
+      Sprite_Enemies_522: -1778911348
+      Sprite_Enemies_457: -922849435
+      Sprite_Enemies_113: 663354537
+      Sprite_Enemies_130: -1165055444
+      Sprite_Enemies_238: 942982400
+      Sprite_Enemies_241: 456589138
+      Sprite_Enemies_600: -42877176
+      Sprite_Enemies_649: 217302212
+      Sprite_Enemies_431: -39171553
+      Sprite_Enemies_37: -2035193547
+      Sprite_Enemies_209: -1523723540
+      Sprite_Enemies_43: -230465143
+      Sprite_Enemies_340: 294788084
+      Sprite_Enemies_384: -218577006
+      Sprite_Enemies_507: -1328828214
+      Sprite_Enemies_202: 1894992494
+      Sprite_Enemies_41: -92675217
+      Sprite_Enemies_137: 1779416329
+      Sprite_Enemies_370: -599204157
+      Sprite_Enemies_119: 1567276956
+      Sprite_Enemies_390: 437710109
+      Sprite_Enemies_29: -1067925775
+      Sprite_Enemies_106: -135898483
+      Sprite_Enemies_579: 257109483
+      Sprite_Enemies_368: 978857176
+      Sprite_Enemies_57: -1115395537
+      Sprite_Enemies_333: 1475011777
+      Sprite_Enemies_513: 1909095374
+      Sprite_Enemies_25: 540493045
+      Sprite_Enemies_559: 1871745690
+      Sprite_Enemies_429: -1593583419
+      Sprite_Enemies_609: 1143424156
+      Sprite_Enemies_359: 192487314
+      Sprite_Enemies_650: 234963345
+      Sprite_Enemies_475: 509961793
+      Sprite_Enemies_313: -790604091
+      Sprite_Enemies_508: 412108117
+      Sprite_Enemies_172: -1621692758
+      Sprite_Enemies_662: -442065992
+      Sprite_Enemies_173: -791048646
+      Sprite_Enemies_162: 2810983
+      Sprite_Enemies_273: -987864759
+      Sprite_Enemies_219: 565003126
+      Sprite_Enemies_583: -1008317397
+      Sprite_Enemies_44: -1884440666
+      Sprite_Enemies_82: -407646165
+      Sprite_Enemies_604: 2015568113
+      Sprite_Enemies_305: 721899513
+      Sprite_Enemies_461: -1576743063
+      Sprite_Enemies_144: 1535100569
+      Sprite_Enemies_158: -49374975
+      Sprite_Enemies_234: 1910206901
+      Sprite_Enemies_189: 121605825
+      Sprite_Enemies_266: -401539354
+      Sprite_Enemies_213: -1955850714
+      Sprite_Enemies_479: 1835329847
+      Sprite_Enemies_183: 578014779
+      Sprite_Enemies_556: -1705245279
+      Sprite_Enemies_529: -404310777
+      Sprite_Enemies_10: 1321625842
+      Sprite_Enemies_284: 53377985
+      Sprite_Enemies_421: 1033925550
+      Sprite_Enemies_642: 172432391
+      Sprite_Enemies_293: 2139690515
+      Sprite_Enemies_629: 2117569493
+      Sprite_Enemies_259: 2049023929
+      Sprite_Enemies_454: 1660052407
+      Sprite_Enemies_15: 820768787
+      Sprite_Enemies_243: 807590236
+      Sprite_Enemies_401: -114266762
+      Sprite_Enemies_256: -1148905978
+      Sprite_Enemies_107: 696396511
+      Sprite_Enemies_511: -1095608317
+      Sprite_Enemies_452: 1215500518
+      Sprite_Enemies_143: 700165097
+      Sprite_Enemies_123: -18445260
+      Sprite_Enemies_141: 1953782597
+      Sprite_Enemies_311: -1696509094
+      Sprite_Enemies_9: -82637337
+      Sprite_Enemies_481: -1378471805
+      Sprite_Enemies_674: -1074869686
+      Sprite_Enemies_618: -132696902
+      Sprite_Enemies_295: -1165199035
+      Sprite_Enemies_626: -1394675521
+      Sprite_Enemies_474: -29951033
+      Sprite_Enemies_659: 1773480990
+      Sprite_Enemies_100: -1667227061
+      Sprite_Enemies_392: 811516418
+      Sprite_Enemies_14: -1177059894
+      Sprite_Enemies_61: 528452302
+      Sprite_Enemies_395: -650356426
+      Sprite_Enemies_187: 968569859
+      Sprite_Enemies_330: 349572987
+      Sprite_Enemies_472: 1063075142
+      Sprite_Enemies_476: 1084810292
+      Sprite_Enemies_343: -1838683991
+      Sprite_Enemies_541: 1165384837
+      Sprite_Enemies_269: -292972469
+      Sprite_Enemies_409: -2068786625
+      Sprite_Enemies_685: 1584051452
+      Sprite_Enemies_616: -1278718685
+      Sprite_Enemies_438: 1117625880
+      Sprite_Enemies_599: 1555654589
+      Sprite_Enemies_660: -309376481
+      Sprite_Enemies_169: -1273935572
+      Sprite_Enemies_589: -1960202533
+      Sprite_Enemies_501: 1357743403
+      Sprite_Enemies_263: 556148501
+      Sprite_Enemies_622: -2036332236
+      Sprite_Enemies_382: -84383445
+      Sprite_Enemies_242: 129726991
+      Sprite_Enemies_309: -2103411526
+      Sprite_Enemies_631: -1703509316
+      Sprite_Enemies_449: 1879157489
+      Sprite_Enemies_385: -612793367
+      Sprite_Enemies_419: -223974832
+      Sprite_Enemies_2: -1584618441
+      Sprite_Enemies_7: 47893528
+      Sprite_Enemies_558: 2023533606
+      Sprite_Enemies_456: 508035620
+      Sprite_Enemies_590: 1322803931
+      Sprite_Enemies_451: -2030744871
+      Sprite_Enemies_180: -1484581175
+      Sprite_Enemies_585: -1925636518
+      Sprite_Enemies_12: 59924050
+      Sprite_Enemies_132: -2028809765
+      Sprite_Enemies_232: -588508673
+      Sprite_Enemies_448: -1650686118
+      Sprite_Enemies_495: 1310122615
+      Sprite_Enemies_469: -310070258
+      Sprite_Enemies_540: 1244046048
+      Sprite_Enemies_664: 1320953958
+      Sprite_Enemies_607: 475572166
+      Sprite_Enemies_8: -751913486
+      Sprite_Enemies_212: -131977602
+      Sprite_Enemies_205: -1665104737
+      Sprite_Enemies_36: -1487349724
+      Sprite_Enemies_453: -31689196
+      Sprite_Enemies_278: 1160164480
+      Sprite_Enemies_430: -533792027
+      Sprite_Enemies_157: -918638670
+      Sprite_Enemies_104: 1293297423
+      Sprite_Enemies_95: 618700837
+      Sprite_Enemies_20: -1069500550
+      Sprite_Enemies_605: 994813870
+      Sprite_Enemies_167: -1187272984
+      Sprite_Enemies_67: 869945520
+      Sprite_Enemies_314: 1066184544
+      Sprite_Enemies_680: 968196074
+      Sprite_Enemies_408: 1725085014
+      Sprite_Enemies_545: 142304731
+      Turret Projectile 1: 911069673
+      Sprite_Enemies_441: -135218085
+      Sprite_Enemies_138: -421304734
+      Sprite_Enemies_521: 1886934225
+      Sprite_Enemies_432: -1663393311
+      Sprite_Enemies_364: 1548492852
+      Sprite_Enemies_199: 354507722
+      Sprite_Enemies_563: 1734999935
+      Sprite_Enemies_153: 414553196
+      Sprite_Enemies_350: -1597561510
+      Sprite_Enemies_5: 561559277
+      Walking Enemy Death 1: 712946623
+      Sprite_Enemies_315: 2080996576
+      Sprite_Enemies_601: 1481110404
+      Sprite_Enemies_517: -609624159
+      Sprite_Enemies_550: -434710008
+      Sprite_Enemies_473: -213844886
+      Sprite_Enemies_323: -322341109
+      Sprite_Enemies_560: 2137819474
+      Sprite_Enemies_561: 661844918
+      Sprite_Enemies_235: 710699346
+      Sprite_Enemies_188: -1717140583
+      Turret Fire 2: 396105889
+      Sprite_Enemies_651: -1666915022
+      Sprite_Enemies_565: 1908982031
+      Sprite_Enemies_334: -694023375
+      Sprite_Enemies_292: 1849784732
+      Sprite_Enemies_557: 1772382415
+      Sprite_Enemies_182: -122467253
+      Sprite_Enemies_663: -418923118
+      Sprite_Enemies_422: 939222267
+      Sprite_Enemies_142: -1609525550
+      Sprite_Enemies_586: -1329110283
+      Sprite_Enemies_371: 1282380617
+      Sprite_Enemies_139: 1660531198
+      Sprite_Enemies_365: 126584085
+      Sprite_Enemies_178: 630521246
+      Sprite_Enemies_131: -1790616071
+      Sprite_Enemies_298: 114137866
+      Sprite_Enemies_440: 539482040
+      Sprite_Enemies_566: -2123010848
+      Sprite_Enemies_603: -1563393351
+      Sprite_Enemies_163: 318263495
+      Sprite_Enemies_624: -1891435807
+      Sprite_Enemies_196: -1746903325
+      Sprite_Enemies_397: 542147410
+      Sprite_Enemies_381: -1696963125
+      Sprite_Enemies_99: 390143190
+      Sprite_Enemies_0: -1590252240
+      Sprite_Enemies_434: 223560711
+      Sprite_Enemies_683: -847963605
+      Sprite_Enemies_317: 958080666
+      Sprite_Enemies_415: 1830959664
+      Sprite_Enemies_354: 750030631
+      Sprite_Enemies_159: 587109277
+      Sprite_Enemies_612: 1678051475
+      Sprite_Enemies_418: -277760010
+      Sprite_Enemies_93: 953056981
+      Sprite_Enemies_285: -1492701048
+      Sprite_Enemies_42: -1093310070
+      Sprite_Enemies_215: -1846677976
+      Sprite_Enemies_447: -2131896024
+      Sprite_Enemies_489: -2098483552
+      Sprite_Enemies_608: -478395394
+      Sprite_Enemies_639: 406355616
+      Sprite_Enemies_59: 2018810231
+      Sprite_Enemies_88: 297899317
+      Sprite_Enemies_361: 1818467601
+      Sprite_Enemies_64: -1536215449
+      Sprite_Enemies_491: 575242138
+      Sprite_Enemies_300: 133110336
+      Sprite_Enemies_201: -1484267516
+      Sprite_Enemies_262: -1355436417
+      Sprite_Enemies_120: 658213677
+      Sprite_Enemies_339: -583530238
+      Sprite_Enemies_490: -716148092
+      Sprite_Enemies_665: -674497538
+      Sprite_Enemies_306: -1180282401
+      Sprite_Enemies_613: -896046282
+      Sprite_Enemies_372: -59056316
+      Sprite_Enemies_274: 618745120
+      Sprite_Enemies_272: 1834855599
+      Sprite_Enemies_628: -246669386
+      Sprite_Enemies_352: -1541206187
+      Sprite_Enemies_31: 455754442
+      Walking Enemy Idle: 2038413800
+      Sprite_Enemies_115: -1283095432
+      Sprite_Enemies_516: -1622767709
+      Sprite_Enemies_52: 1046372380
+      Sprite_Enemies_108: 1190709905
+      Sprite_Enemies_443: 2050263701
+      Sprite_Enemies_127: 1149515518
+      Sprite_Enemies_614: -97200802
+      Sprite_Enemies_101: -2032983618
+      Sprite_Enemies_342: -1134170347
+      Sprite_Enemies_634: -1884159299
+      Sprite_Enemies_320: -567847213
+      Sprite_Enemies_194: -217592569
+      Sprite_Enemies_133: -831248464
+      Sprite_Enemies_77: 1084802860
+      Sprite_Enemies_118: 1548386598
+      Sprite_Enemies_407: 1009766851
+      Sprite_Enemies_538: 626897085
+      Sprite_Enemies_611: 1971332336
+      Sprite_Enemies_150: -669107200
+      Walking Enemy Death 2: -672279331
+      Sprite_Enemies_530: -1665068645
+      Sprite_Enemies_327: -2117814712
+      Sprite_Enemies_549: 1453431259
+      Sprite_Enemies_578: 279122372
+      Sprite_Enemies_51: -1904903414
+      Sprite_Enemies_505: 977219743
+      Walking Enemy Walk 1: -547771623
+      Sprite_Enemies_24: 620179401
+      Sprite_Enemies_128: 2041420669
+      Sprite_Enemies_676: 1319817488
+      Sprite_Enemies_40: 456207047
+      Sprite_Enemies_414: 2116940991
+      Sprite_Enemies_228: -2038064110
+      Sprite_Enemies_254: -1031365264
+      Sprite_Enemies_22: -1479497484
+      Sprite_Enemies_302: 1105499772
+      Sprite_Enemies_240: 1104940324
+      Sprite_Enemies_580: -1327080659
+      Sprite_Enemies_520: 1659227746
+      Sprite_Enemies_387: 113141209
+      Sprite_Enemies_427: 329868406
+      Sprite_Enemies_203: -703973396
+      Sprite_Enemies_470: -839667218
+      Sprite_Enemies_204: -447443720
+      Sprite_Enemies_433: 700691901
+      Sprite_Enemies_299: -376526597
+      Sprite_Enemies_174: 454492095
+      Sprite_Enemies_129: -205604578
+      Sprite_Enemies_515: -1667127022
+      Sprite_Enemies_424: -1603951680
+      Sprite_Enemies_595: 1666214062
+      Sprite_Enemies_84: 91568349
+      Sprite_Enemies_584: -217554355
+      Walking Enemy Death 3: -175078706
+      Sprite_Enemies_363: 1250595908
+      Sprite_Enemies_68: 669337745
+      Sprite_Enemies_348: -403810480
+      Sprite_Enemies_383: -1698285845
+      Sprite_Enemies_436: 556119751
+      Sprite_Enemies_179: 1128950585
+      Sprite_Enemies_247: -407648548
+      Sprite_Enemies_400: 513767094
+      Sprite_Enemies_510: 1250175693
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
