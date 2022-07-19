@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crouch
+      name: Jump Attack 2
       rect:
         serializedVersion: 2
         x: 204
@@ -767,7 +767,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack Jump
+      name: Attack3
       rect:
         serializedVersion: 2
         x: 97
@@ -955,6 +955,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Jump Attack 1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 75
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb733961f099b14faf4726e9df0ee09
+      internalID: -2033119042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -971,7 +992,6 @@ TextureImporter:
       Attack2: -1336072035
       Face Away: 932767715
       Climb 1 Towards: 1278761566
-      Crouch: -1980960840
       Sprite_Mario_23: -306210105
       Swim1: -1794340828
       Sprite_Mario_6: 1231428374
@@ -991,9 +1011,10 @@ TextureImporter:
       Cape Straight Down: 1041715758
       Run Up Wall 3: 322683864
       Jump: 651093438
-      On Yoshi Attack2: -1240867667
+      Jump Attack 2: -1980960840
       Sprite_Mario_32: 595628207
       Sprite_Mario_10: 1066330891
+      On Yoshi Attack2: -1240867667
       Sprite_Mario_45: -1087977188
       Sprite_Mario_46: 1980651038
       Swim Idle: 1768344994
@@ -1002,13 +1023,13 @@ TextureImporter:
       On Yoshi Attack1: 880127902
       Face Towards: -348222223
       Climb1 Away: -883040409
+      Jump Attack 1: -2033119042
       Fall: -1991626117
       Death1: -441858816
       Cape Up: -2135009530
       Sprite_Mario_5: -38401747
       Sprite_Mario_39: -2140473373
       Death2: 10082861
-      Attack Jump: 14675744
       Run Up Wall 1: -1810453760
       Sprite_Mario_4: 1441078422
       Sprite_Mario_60: -1536594261
@@ -1027,6 +1048,7 @@ TextureImporter:
       Walk1: 1328705334
       Cape Very Down: -1618442819
       45 angle: -662927064
+      Attack3: 14675744
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
