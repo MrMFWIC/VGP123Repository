@@ -43,12 +43,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        AnimatorClipInfo[] curPlayingClip = anim.GetCurrentAnimatorClipInfo(0);
         float hInput = Input.GetAxisRaw("Horizontal");
         float vInput = Input.GetAxisRaw("Vertical");
-        bool isAttack = Input.GetButtonDown("Fire1");
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundlayer);
-        //isJumpAttack = !isGrounded && rb.velocity.y < 0 && Input.GetKeyDown("w");
 
         if (!isGrounded && rb.velocity.y < 0 && Input.GetKeyDown(KeyCode.W))
         {
@@ -66,31 +65,36 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce);
         }
         
-        if (isJumpAttack)
-        {
-            rb.gravityScale = 3;
-        }
-        else
+        if (isGrounded)
         {
             rb.gravityScale = 1;
         }
 
-        Vector2 moveDirection = new Vector2(hInput * speed, rb.velocity.y);
-        rb.velocity = moveDirection;
-
         anim.SetFloat("MoveValue", Mathf.Abs(hInput));
         anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isJumpAttack", isJumpAttack);
-        anim.SetBool("isAttack", isAttack);
 
-        //Sprite flipping
-        if (hInput < 0)
+        if (hInput != 0)
         {
-            sr.flipX = true;
+            sr.flipX = (hInput < 0);
         }
-        else if (hInput > 0)
+
+        if (curPlayingClip.Length > 0)
         {
-            sr.flipX = false;
+            if (Input.GetButtonDown("Fire1") && curPlayingClip[0].clip.name != "Attack")
+                anim.SetTrigger("Attack");
+            else if (curPlayingClip[0].clip.name == "Attack")
+                rb.velocity = Vector2.zero;
+            else
+            {
+                Vector2 moveDirection = new Vector2(hInput * speed, rb.velocity.y);
+                rb.velocity = moveDirection;
+            }
         }
     }
+    
+    public void IncreaseGravity()
+        {
+            rb.gravityScale = 3;
+        }
 }

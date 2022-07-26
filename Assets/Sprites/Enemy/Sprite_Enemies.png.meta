@@ -221,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario Projectile
+      name: PlayerProjectile
       rect:
         serializedVersion: 2
         x: 79
@@ -641,7 +641,6 @@ TextureImporter:
       Sprite_Enemies_619: 882020322
       Sprite_Enemies_277: -758143124
       Sprite_Enemies_377: -1130782299
-      Mario Projectile: -524978482
       W: -759278451
       Sprite_Enemies_682: -2004511073
       Sprite_Enemies_186: 299052303
@@ -954,6 +953,7 @@ TextureImporter:
       Sprite_Enemies_517: -609624159
       Sprite_Enemies_550: -434710008
       Sprite_Enemies_473: -213844886
+      PlayerProjectile: -524978482
       Sprite_Enemies_323: -322341109
       Sprite_Enemies_560: 2137819474
       Sprite_Enemies_561: 661844918
