@@ -4,17 +4,6 @@ using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
-    /*public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag != "Player")
-        {
-           
-        }
-        else
-        {
-             Destroy(this.gameObject);
-        }
-    }*/
     public Rigidbody2D rb;
 
     private void Start()

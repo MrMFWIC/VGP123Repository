@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Projectile
   - PowerUp
+  - Pickup
   layers:
   - Default
   - TransparentFX

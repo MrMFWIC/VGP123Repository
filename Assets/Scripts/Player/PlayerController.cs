@@ -17,6 +17,50 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius = 0.02f;
     public bool isJumpAttack;
 
+    Coroutine jumpForceChange;
+
+    private int _lives = 3;
+    public int maxLives = 5;
+
+    public int lives
+    {
+        get { return _lives; }
+        set 
+        {
+            /*if (_lives > value)
+            {
+                Lost a life - Respawn
+            }*/
+
+            _lives = value;
+
+            if (_lives > maxLives)
+            {
+                _lives = maxLives;
+            }
+
+            /*if (_lives < 0)
+            {
+                Game Over
+            }*/
+
+            Debug.Log("Lives are set to: " + lives.ToString());
+        }
+    }
+
+    private int _score = 0;
+
+    public int score
+    {
+        get { return _score; }
+        set
+        {
+            _score = value;
+
+            Debug.Log("Your current score is: " + score.ToString());
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -97,4 +141,29 @@ public class PlayerController : MonoBehaviour
         {
             rb.gravityScale = 3;
         }
+
+    public void StartJumpForceChange()
+    {
+        if (jumpForceChange == null)
+        {
+            jumpForceChange = StartCoroutine(JumpForceChange());
+        }
+        else
+        {
+            StopCoroutine(jumpForceChange);
+            jumpForceChange = null;
+            jumpForce /= 2;
+            jumpForceChange = StartCoroutine(JumpForceChange());
+        }
+    }
+
+    IEnumerator JumpForceChange()
+    {
+        jumpForce *= 2;
+
+        yield return new WaitForSeconds(8.0f);
+
+        jumpForce /= 2;
+        jumpForceChange = null;
+    }
 }
