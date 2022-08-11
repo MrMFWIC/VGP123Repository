@@ -4,20 +4,15 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform player;
+    public GameObject player;
 
-    public float minXClamp;
-    public float maxXClamp;
+    public float leftLimit = -1;
+    public float rightLimit = 20;
 
-    private void LateUpdate()
+    void Update()
     {
-        if (player)
-        {
-            Vector3 cameraPos;
+        transform.position = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
 
-            cameraPos = transform.position;
-            cameraPos.x = Mathf.Clamp(player.transform.position.x, minXClamp, maxXClamp);
-            transform.position = cameraPos;
-        }
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, leftLimit, rightLimit), transform.position.y, transform.position.z);
     }
 }
