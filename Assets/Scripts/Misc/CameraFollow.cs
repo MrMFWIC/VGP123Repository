@@ -6,8 +6,8 @@ public class CameraFollow : MonoBehaviour
 {
     public GameObject player;
 
-    public float leftLimit = -1;
-    public float rightLimit = 20;
+    public float leftLimit = -1.3f;
+    public float rightLimit = 182.5f;
 
     void Update()
     {

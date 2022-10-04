@@ -753,8 +753,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1981969205}
-  leftLimit: -1
-  rightLimit: 20
+  leftLimit: -1.3
+  rightLimit: 200
 --- !u!1 &526907878
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,7 +2218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpForce: 300
+  jumpForce: 375
   isGrounded: 0
   isGroundlayer:
     serializedVersion: 2

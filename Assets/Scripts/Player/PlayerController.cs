@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     Animator anim;
 
     public float speed = 5.0f;
-    public int jumpForce = 300;
+    public int jumpForce = 375;
     public bool isGrounded;
     public LayerMask isGroundlayer;
     public Transform groundCheck;
